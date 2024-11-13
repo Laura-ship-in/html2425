@@ -1,4 +1,5 @@
--  Curs HTM
+-  Curs HTML
 ```
 touch README.md
 ```
+I. Primul Capitol 
