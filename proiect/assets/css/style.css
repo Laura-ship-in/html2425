@@ -58,7 +58,7 @@ nav ul li{
 /* END BANNER */
 .container{
     margin: 20px 0px;
-    padding: 10px 30 px;
+    padding: 10px 30px;
 }
 #foto{
     width: 100%;
@@ -68,4 +68,4 @@ nav ul li{
 #foto img.foto{
  display: inline-block;
  margin: 20px;
-}
+}          
