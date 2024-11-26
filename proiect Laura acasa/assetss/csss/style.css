@@ -85,7 +85,8 @@ section h2{
 }
 section p{
     width: 70%;
-    color: aqua;
+    color: black;
+    background-image: url(../imagess/immgg.jpeg);
     
 }
 section ol{
@@ -96,6 +97,38 @@ section ol{
 }
  section ol li{
     width: 100%;
-    max-width: 70px;
+    max-width: 100px;
     background-image: url(../imagess/banner.jpg);
  }
+
+.foto{
+    width: 100%;
+    max-width: 300px;
+    background-position: center;
+}
+
+main section h2{
+    background-color: #a14b99;
+    background-image: url(../imagess/bannnerr.png);
+    background-position: center;
+    width: 100%;
+    max-inline-size: 35%;
+}
+
+h2{
+    width: 100%;
+    max-width:  500px;
+    border-bottom: double 3px blue;
+    margin: auto; 
+    text-align: center;
+}
+
+.section #foto{
+    width: 40%;
+    float: left;
+    border: double 3px red;
+    margin: 20px;
+    padding: 15px 25px;
+    border-radius: 100%;
+    background-size: 100% 1600px;
+}
