@@ -68,4 +68,29 @@ nav ul li{
 #foto img.foto{
  display: inline-block;
  margin: 20px;
-}          
+}      
+    /* TABEL */
+    #tabel1{
+        /* border: 1px red solid; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-collapse: collapse;
+    }
+    #tabel1 tr td, #tabel1 tr th{
+        border: 1px blue double;
+        padding: 15px ;
+    }
+    #tabel1 tr th{
+        color: black;
+        background-color: aqua;
+    }
+    #tabel1 tr:nth-child(2n){
+        background-color: beige;
+    }
+    
+    #tabel1 tr:nth-child(2n+1){
+        background-color: blanchedalmond;
+    }
+    #tabel1 tfoot tr{
+        background-color: blueviolet;
+        color: #ffffff;
+    }
