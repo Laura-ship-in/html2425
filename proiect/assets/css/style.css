@@ -36,6 +36,10 @@ nav ul li a{
     font-size: 30px;
     color: #ffffff;
     text-decoration: none;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 nav ul li{
     font-size: 30px;
