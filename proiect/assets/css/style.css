@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Edu AU VIC WA NT Arrows';
+    src: url('../fonts/EduAUVICWANTArrows-Regular.eot');
+    src: local('Edu AU VIC WA NT Arrows Regular'), local('EduAUVICWANTArrows-Regular'),
+        url('../fonts/EduAUVICWANTArrows-Regular.eot') format('embedded-opentype'),
+        url('../fonts/EduAUVICWANTArrows-Regular.woff2') format('woff2'),
+        url('../fonts/EduAUVICWANTArrows-Regular.woff') format('woff'),
+        url('../fonts/EduAUVICWANTArrows-Regular.ttf') format('truetype'),
+        url('../fonts/EduAUVICWANTArrows-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .logo{
     width: 100%;
      max-width: 300px;
@@ -33,14 +47,14 @@ nav ul li:hover a{
     list-style: none;
 }
 nav ul li a{
-    font-size: 30px;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: "Edu AU VIC WA NT Arrows", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+      font-size: 30px;
+      color: #ffffff;
+      text-decoration: none;
+       font-family: "Edu AU VIC WA NT Arrows", cursive;
+      font-optical-sizing: auto;
+    
 }
+
 nav ul li{
     font-size: 30px;
     color: #ffffff;
