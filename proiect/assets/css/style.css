@@ -126,3 +126,20 @@ nav ul li{
         color: #a14b99;
         
     }
+    body {
+        font-family: Arial;
+        font-size: 17px;
+        padding: 8px;
+      }
+      input[type=text] {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+      
