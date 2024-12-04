@@ -143,3 +143,21 @@ nav ul li{
         display: block;
       }
       
+ /* START Contact */
+ #check label{
+    display: inline;
+    width: 300px;
+
+}
+#myform{
+    background-color: rgb(225, 193, 227);
+    padding: 25px;
+}
+#contact div{
+    margin: 25px 0px;
+}
+
+
+ /* STOP Contact */
+ /* GENERAL */
+ 
