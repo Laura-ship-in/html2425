@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicatia 7</title>
+    <!-- <--<style media="screen" type="text/css">-->
+    <style>
+        .roboto-thin {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .roboto-light {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .roboto-medium {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .roboto-bold {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .roboto-black {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        .roboto-thin-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        .roboto-light-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .roboto-regular-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .roboto-medium-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .roboto-bold-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        .roboto-black-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            padding: 20px 25px;
+        }
+
+        nav ul li:hover,
+        nav ul li.active {
+            background-color: black;
+
+        }
+
+        nav ul li:hover a {
+
+            display: inline;
+            padding: 20px 25px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            font-size: 30px;
+            color: pink;
+            text-decoration: none;
+            font-family: "Edu AU VIC WA NT Arrows", cursive;
+            font-optical-sizing: auto;
+
+        }
+
+        nav ul li {
+            font-size: 30px;
+            color: black;
+            text-decoration: none;
+
+        }
+
+
+        
+        
+        nav > ul > li{
+            /* text-transform: lowercase;
+            text-transform: capitalize; */
+            display: inline;
+            padding: 7px 5px 7px 5px;
+        }
+
+         nav > ul > li:hover {
+            background-color: brown;
+         }
+         nav > ul > li.active {
+            background-color: brown;
+         }
+         nav > ul >li.active a{
+            color: #ffffff;
+            text-decoration:  none;
+            list-style: none;
+            padding:  15px 20 px;
+         }
+         
+
+          /* submeniu */
+        ul.submeniu{
+            text-transform: uppercase;
+            display: none;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav > ul > li:hover > ul.submeniu {
+            display: block;
+            background-color: beige;
+            clear: both;
+            margin-top: 10px;
+            position: absolute;
+            width: 160px;
+        }
+        ul.submeniu >li > a {
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        ul.submeniu > li:hover {
+            background-color: fuchsia;
+            color: aliceblue;
+        }
+        nav >ul > li:hover > ul.submeniu >li {
+            padding: 7px 5px 7px 5px;
+            text-decoration:  none;
+            color: aliceblue;
+        }
+         
+         nav > ul >li.hover > ul.submeniu > li > a{
+            padding: 7px 5px 7px 5px;
+            text-decoration: none;
+            color: aliceblue;
+        }
+        ul.submeniu > li> a {
+            padding: 7px 5px 7px 5px;
+            text-decoration: none;
+        }
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="active"><a href="">Acasa</a></li>
+                <li>
+                    <a href="#">Blog</a>
+                    <ul class="submeniu">
+                        <li><a href="">lista</a></li>
+                        <li><a target="_blank" href="">portofoliu</a></li>
+                        <li><a target="_blank" href="">numar</a></li>
+                        <li><a target="_blank" href="">paragrafe</a></li>
+                    </ul>
+                <li><a href="">Despre noi</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+</body>
+
+</html>
