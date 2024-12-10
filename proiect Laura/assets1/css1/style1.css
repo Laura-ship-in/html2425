@@ -26,7 +26,7 @@ nav{
 nav ul{
     height: 30px;
     padding: 60px 0px;
-    background-color:beige;
+    background-color:rgb(195, 195, 181);
 }
 nav ul li{
     display: inline-block;
@@ -35,7 +35,7 @@ nav ul li{
 }
 
 nav ul li:hover , nav ul li.active{
-background-color: chartreuse;
+background-color: rgb(113, 104, 88);
 }
 nav ul li:hover a{
 
@@ -68,3 +68,17 @@ nav ul li{
     /* text-align: center; */
     position: absolute;
 }
+/* END BANNER */
+.container{
+    margin: 20px 0px;
+    padding: 10px 30px;
+}
+#foto{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+}
+#foto img.foto{
+ display: inline-block;
+ margin: 20px;
+}      
